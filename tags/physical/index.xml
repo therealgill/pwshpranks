@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physical on pwshPranks</title>
+    <link>http://localhost:1313/tags/physical/</link>
+    <description>Recent content in Physical on pwshPranks</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/physical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ejecting the Drive Tray</title>
+      <link>http://localhost:1313/posts/ejecting_the_drive_tray/</link>
+      <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
+      <guid>http://localhost:1313/posts/ejecting_the_drive_tray/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;This will eject the physical drive tray of all available &amp;ldquo;CD Drive&amp;rdquo; devices.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$sh = New-Object -ComObject &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Shell.Application&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$sh.Namespace(&lt;span style=&#34;color:#ae81ff&#34;&gt;17&lt;/span&gt;).Items() |  Where-Object { $_.Type &lt;span style=&#34;color:#f92672&#34;&gt;-eq&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;CD Drive&amp;#34;&lt;/span&gt; } | &lt;span style=&#34;color:#66d9ef&#34;&gt;foreach&lt;/span&gt; { $_.InvokeVerb(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Eject&amp;#34;&lt;/span&gt;) }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/PowerShell/comments/5z55g4/need_a_fun_prank_script/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

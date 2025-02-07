@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 17.5px;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Ejecting the Drive Tray</title>
+    <meta name="description" content="Eject the physical drive tray of a system">
+    <meta name="keywords" content='Drive Tray, CD, DVD, Physical, Hardware'>
+
+    <meta property="og:url" content="http://localhost:1313/posts/ejecting_the_drive_tray-copy/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ejecting the Drive Tray">
+    <meta property="og:description" content="Eject the physical drive tray of a system">
+    <meta property="og:image" content="http://localhost:1313/">
+    <meta property="og:image:secure_url" content="http://localhost:1313/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ejecting the Drive Tray">
+    <meta name="twitter:description" content="Eject the physical drive tray of a system">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/ejecting_the_drive_tray-copy/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/ejecting_the_drive_tray-copy/">
+    <meta name="twitter:image" content="http://localhost:1313/">
+
+    
+    <link rel="canonical" href="http://localhost:1313/posts/ejecting_the_drive_tray-copy/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.dce06bccdb48a1e609abd5ddf48171ca09316a6284027f6cc83ac12473b2ea0e.js" integrity="sha256-3OBrzNtIoeYJq9Xd9IFxygkxamKEAn9syDrBJHOy6g4="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">My New Hugo Site</a>
+        </div>
+
+        <div class="nav-links">
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Ejecting the Drive Tray</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">Eject the physical drive tray of a system</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              February 7, 2025
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/drive-tray">Drive Tray</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/cd">CD</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/dvd">DVD</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/physical">Physical</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/hardware">Hardware</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <!-- raw HTML omitted -->
+<p>This will eject the physical drive tray of all available &ldquo;CD Drive&rdquo; devices.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$sh = New-Object -ComObject <span style="color:#e6db74">&#34;Shell.Application&#34;</span>
+</span></span><span style="display:flex;"><span>$sh.Namespace(<span style="color:#ae81ff">17</span>).Items() |  Where-Object { $_.Type <span style="color:#f92672">-eq</span> <span style="color:#e6db74">&#34;CD Drive&#34;</span> } | <span style="color:#66d9ef">foreach</span> { $_.InvokeVerb(<span style="color:#e6db74">&#34;Eject&#34;</span>) }
+</span></span></code></pre></div><h3 id="source">Source</h3>
+<p><a href="https://www.reddit.com/r/PowerShell/comments/5z55g4/need_a_fun_prank_script/">Reddit</a></p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
