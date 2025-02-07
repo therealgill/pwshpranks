@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on pwshPranks</title>
+    <link>http://localhost:1313/tags/audio/</link>
+    <description>Recent content in Audio on pwshPranks</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make a System &#39;Speak&#39;</title>
+      <link>http://localhost:1313/posts/powershell_speech/</link>
+      <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
+      <guid>http://localhost:1313/posts/powershell_speech/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;This will cause a system to &amp;lsquo;say&amp;rsquo; a phrase.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Add-Type -AssemblyName System.speech&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$speak.Speak(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;INSERT SPEECH TEXT HERE&amp;#34;&lt;/span&gt;) &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/PowerShell/comments/5z55g4/need_a_fun_prank_script/&#34;&gt;Reddit&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

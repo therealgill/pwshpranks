@@ -1,0 +1,5 @@
+baseURL = 'https://pwshpranks.com/'
+languageCode = 'en-us'
+title = 'pwshPranks'
+theme = 'gokarna'
+sectionPagesMenu = 'main'
