@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta name="generator" content="Hugo 0.142.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,26 +18,26 @@
     
 
     
-    <title>pwshPranks</title>
-    <meta name="description" content="">
-    <meta name="keywords" content=''>
+    <title>Make a System &lsquo;Speak&rsquo;</title>
+    <meta name="description" content="Make a remote system &#39;speak&#39;">
+    <meta name="keywords" content='Speech, Audio'>
 
-    <meta property="og:url" content="https://pwshpranks.com/">
+    <meta property="og:url" content="https://pwshpranks.com/posts/powershell_speech/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="pwshPranks">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Make a System &lsquo;Speak&rsquo;">
+    <meta property="og:description" content="Make a remote system &#39;speak&#39;">
     <meta property="og:image" content="https://pwshpranks.com/">
     <meta property="og:image:secure_url" content="https://pwshpranks.com/">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="pwshPranks">
-    <meta name="twitter:description" content="">
-    <meta property="twitter:domain" content="https://pwshpranks.com/">
-    <meta property="twitter:url" content="https://pwshpranks.com/">
+    <meta name="twitter:title" content="Make a System &lsquo;Speak&rsquo;">
+    <meta name="twitter:description" content="Make a remote system &#39;speak&#39;">
+    <meta property="twitter:domain" content="https://pwshpranks.com/posts/powershell_speech/">
+    <meta property="twitter:url" content="https://pwshpranks.com/posts/powershell_speech/">
     <meta name="twitter:image" content="https://pwshpranks.com/">
 
     
-    <link rel="canonical" href="https://pwshpranks.com/">
+    <link rel="canonical" href="https://pwshpranks.com/posts/powershell_speech/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -109,23 +108,88 @@
     </nav>
 </header>
 <main id="content">
-<section class="home-about">
-	<div class="avatar">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Make a System &lsquo;Speak&rsquo;</h1>
+
         
-	</div>
 
-    <h1>pwshPranks</h1>
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">Make a remote system &#39;speak&#39;</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              February 7, 2025
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="https://pwshpranks.com/tags/speech">Speech</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://pwshpranks.com/tags/audio">Audio</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <!-- raw HTML omitted -->
+<p>This will cause a system to &lsquo;say&rsquo; a phrase.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-Type -AssemblyName System.speech
+</span></span><span style="display:flex;"><span>$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
+</span></span><span style="display:flex;"><span>$speak.Speak(<span style="color:#e6db74">&#34;INSERT SPEECH TEXT HERE&#34;</span>) 
+</span></span></code></pre></div><h3 id="source">Source</h3>
+<p><a href="https://www.reddit.com/r/PowerShell/comments/5z55g4/need_a_fun_prank_script/">Reddit</a></p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
     
+    
+    
+</div>
 
-</section>
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#source">Source</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
-<div class="flex-break"></div>
 
 
-
-
-
-
+    
 
         </main><footer class="footer">
     
