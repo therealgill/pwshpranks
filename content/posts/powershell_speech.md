@@ -1,12 +1,13 @@
 ---
 date: 2025-02-07T06:28:34-06:00
-description: "Make a remote system 'speak'"
-# image: ""
+description: Make a remote system 'speak'
 lastmod: 2025-02-07
-showTableOfContents: true
-tags: ["Speech","Audio"]
-title: "Make a System 'Speak'"
-type: "post"
+showTableOfContents: false
+tags:
+  - Speech
+  - Audio
+title: Make a System 'Speak'
+type: post
 ---
 <base target="_blank">
 # Description
