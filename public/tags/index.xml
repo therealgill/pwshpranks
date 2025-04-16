@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on pwshPranks</title>
-    <link>https://pwshpranks.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on pwshPranks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pwshpranks.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audio</title>
-      <link>https://pwshpranks.com/tags/audio/</link>
+      <link>http://localhost:1313/tags/audio/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/audio/</guid>
+      <guid>http://localhost:1313/tags/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>CD</title>
-      <link>https://pwshpranks.com/tags/cd/</link>
+      <link>http://localhost:1313/tags/cd/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/cd/</guid>
+      <guid>http://localhost:1313/tags/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>Drive</title>
-      <link>https://pwshpranks.com/tags/drive/</link>
+      <link>http://localhost:1313/tags/drive/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/drive/</guid>
+      <guid>http://localhost:1313/tags/drive/</guid>
       <description></description>
     </item>
     <item>
       <title>DVD</title>
-      <link>https://pwshpranks.com/tags/dvd/</link>
+      <link>http://localhost:1313/tags/dvd/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/dvd/</guid>
+      <guid>http://localhost:1313/tags/dvd/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>https://pwshpranks.com/tags/hardware/</link>
+      <link>http://localhost:1313/tags/hardware/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/hardware/</guid>
+      <guid>http://localhost:1313/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Physical</title>
-      <link>https://pwshpranks.com/tags/physical/</link>
+      <link>http://localhost:1313/tags/physical/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/physical/</guid>
+      <guid>http://localhost:1313/tags/physical/</guid>
       <description></description>
     </item>
     <item>
       <title>Speech</title>
-      <link>https://pwshpranks.com/tags/speech/</link>
+      <link>http://localhost:1313/tags/speech/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/speech/</guid>
+      <guid>http://localhost:1313/tags/speech/</guid>
       <description></description>
     </item>
     <item>
       <title>Tray</title>
-      <link>https://pwshpranks.com/tags/tray/</link>
+      <link>http://localhost:1313/tags/tray/</link>
       <pubDate>Fri, 07 Feb 2025 06:28:34 -0600</pubDate>
-      <guid>https://pwshpranks.com/tags/tray/</guid>
+      <guid>http://localhost:1313/tags/tray/</guid>
       <description></description>
     </item>
   </channel>
