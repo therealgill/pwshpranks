@@ -6,7 +6,7 @@ title: pwshPranks - Home of some PowerShell Pranks!
 
 
 # Website Notice
-> Still defining the website update pipeline... Please be patient!
+> Still defining the website update pipeline... I am new to Hugo and Github Pages. Please be patient!
 > 	-MG
 
 
